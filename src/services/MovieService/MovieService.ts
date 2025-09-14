@@ -25,7 +25,7 @@ const requestTypesNeedUpdateMediaType = [
   RequestType.GENRE,
   RequestType.KOREAN,
 ];
-const baseUrl = 'https://api.themoviedb.org/3';
+const baseUrl = 'https://tmdb-a62z.onrender.com/api';
 
 class MovieService extends BaseService {
   static async findCurrentMovie(id: number, pathname: string): Promise<Show> {
